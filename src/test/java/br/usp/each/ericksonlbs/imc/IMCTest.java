@@ -13,6 +13,7 @@ public class IMCTest {
 		int actual = IMC.Calc(55.0, 1.75);
 		Assert.assertEquals(expected, actual);
 	}	
+	
 	@Test
 	public void test2() {
 		int expected = 1;
